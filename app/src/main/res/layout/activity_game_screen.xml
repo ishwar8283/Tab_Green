@@ -1,0 +1,402 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tiles"
+    android:backgroundTint="@color/colorTextSoft"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout_sub_activities"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/your_score"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tab"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textSize="10dp" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/color_dark_Green"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Green"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/total_Score"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:layout_gravity="right|center"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tv_timer"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorButtonBoarder"
+                android:text=""
+                android:visibility="gone"
+                android:fontFamily="@font/opensans_semibold"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorButtonBoarderTrans"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_One"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_Two"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_Three"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_Four"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_Five"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_Six"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_Seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_Eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_Nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_Ten"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_Eleven"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_Twelve"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_13"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_14"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/tab_15"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg_game"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/tab_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

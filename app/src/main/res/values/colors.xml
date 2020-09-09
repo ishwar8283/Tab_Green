@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A84E07</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorRed">#EA2E2E</color>
+    <color name="colorBackground">#F9F0D5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#000222</color>
+    <color name="colorTextMain">#111211</color>
+    <color name="colorTextSoft">#929392</color>
+    <color name="colorTextNormal">#5c5d5c</color>
+    <color name="colorTextNormal1">#7f807f</color>
+    <color name="colorYellow">#FFB43F</color>
+    <color name="colorYellow1">#FFAf25</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackSoft">#A0A0A0</color>
+
+    <color name="colorBoarder">#d5d6d5</color>
+    <color name="colorBlackBack">#F5F5F7</color>
+    <color name="colorButtonBoarder">#A0A0A0</color>
+    <color name="colorLine">#EDEDF7</color>
+    <color name="colorCircleWhite">#FFF</color>
+    <color name="color_dark_Green">#00FF00</color>
+    <color name="transferent">#00000000</color>
+    <color name="colorButtonBoarderTrans">#40A84E07</color>
+    <color name="colorTickRed">#ec3732</color>
+    <color name="colorTickYellow">#fff851</color>
+    <color name="colorTickGreen">#73f33f</color>
+    <color name="colorTickNormal">#6b6c6b</color>
+    <color name="colorBlurTransfer">#80000000</color><!--#80e7f9f9-->
+
+    <!--100% — FF
+95% — F2
+90% — E6
+85% — D9
+80% — CC
+75% — BF
+70% — B3
+65% — A6
+60% — 99
+55% — 8C
+50% — 80
+45% — 73
+40% — 66
+35% — 59
+30% — 4D
+25% — 40
+20% — 33
+15% — 26
+10% — 1A
+5% — 0D
+0% — 00-->
+
+</resources>
